@@ -283,6 +283,7 @@ Navigate a grid using recursion.
 2. Write recursive method findPath(int[][] grid, int row, int col).  
 
 **Logic:**  
+
 - Start from (0,0)  
 - Move right or down  
 - Mark visited cells  
@@ -291,3 +292,23 @@ Navigate a grid using recursion.
 **Code file:** MazeSolver.java  
 
 [👉 Click here to view code](MazeSolver.java)
+
+
+## 16. Age Validator (Throw & Custom Exceptions)
+
+**Topic:** Using the throw keyword and creating custom exceptions  
+
+**Objective:**  
+Learn how to manually trigger an exception when specific business logic is violated.
+
+**Task:**  
+1. Create a custom Unchecked Exception class named InvalidAgeException.  
+2. Write a class ElectionBooth with a method checkEligibility(int age).  
+3. If age < 18, use the throw keyword to trigger the InvalidAgeException with message "Underage voters not allowed."  
+
+**Key Concept:**  
+The throw keyword is used to explicitly throw an exception instance from a method or block of code.
+
+**Code file:** AgeValidator.java  
+
+[👉 Click here to view code](InvalidAgeException.java)
