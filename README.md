@@ -312,3 +312,23 @@ The throw keyword is used to explicitly throw an exception instance from a metho
 **Code file:** AgeValidator.java  
 
 [👉 Click here to view code](InvalidAgeException.java)
+
+## 17. Data Parser (Throws & Checked Exceptions)
+
+**Topic:** Using the throws keyword  
+
+**Objective:**  
+Understand how to pass exception handling responsibility to the caller.
+
+**Task:**  
+1. Create a class DataProcessor.  
+2. Write a method parseData(String input) to convert string to integer.  
+3. Do not use try-catch inside this method. Use throws keyword.  
+4. In main, call the method with invalid input and handle exception using try-catch.
+
+**Key Concept:**  
+throws keyword declares exceptions.
+
+**Code file:** DataParser.java  
+
+[👉 Click here to view code](DataParser.java)
