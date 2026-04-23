@@ -20,7 +20,7 @@ Use while loop to check conditions before calling wait(), and use notifyAll() to
 [👉 Click here to view code](Bakery.java)
 
 # Java Programs
-##2. The Walkie-Talkie
+## 2. The Walkie-Talkie
 **Topic:** Inter-Thread Communication (wait() and notify())
 **Objective:**
 Coordinate the execution order of two threads so they take turns.
