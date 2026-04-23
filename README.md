@@ -18,3 +18,15 @@ Use while loop to check conditions before calling wait(), and use notifyAll() to
 
 **Code file:** Bakery.java
 [👉 Click here to view code](Bakery.java)
+##3. The Walkie-Talkie
+**Topic:** Inter-Thread Communication (wait() and notify())
+**Objective:**
+Coordinate the execution order of two threads so they take turns.
+**Task:**
+Create a RadioChannel class with a boolean flag isQuestionTurn = true.
+Write a synchronized method askQuestion(String msg). If it's not the question's turn, call wait(). Otherwise, print the message, set the flag to false, and call notify().
+Write a synchronized method answerQuestion(String msg). If it's not the answer's turn, call wait(). Otherwise, print the message, set the flag to true, and call notify().
+Create two threads: one looping through questions and the other through answers.
+**Goal:**
+Use wait() and notify() to control execution order between threads.
+**Code file:** WalkieTalkieTest.java
