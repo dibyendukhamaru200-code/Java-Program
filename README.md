@@ -331,4 +331,106 @@ throws keyword declares exceptions.
 
 **Code file:** DataParser.java  
 
+
 [👉 Click here to view code](DataProcessor.java)
+
+## 15. Recursive Factorial (Call-Stack Analysis)
+
+**Topic:** Recursion & StackOverflow Errors  
+
+**Objective:**  
+Understand how recursion uses memory and what happens when it fails.
+
+**Task:**  
+1. Create a class MathWizard.  
+2. Implement a recursive method factorial(int n).  
+3. In main method, call factorial(5).  
+
+**Error Experiment:**  
+Call factorial(-1) to observe StackOverflowError.
+
+**Analysis:**  
+Understand infinite recursion and difference between Stack and Heap memory.
+
+**Goal:**  
+Recursion must always have a valid base case.
+
+**Code file:** Factorial.java  
+
+[👉 Click here to view code](MathWizard.java)
+
+## 16. Smart Calculator (Multiple Catch)
+
+**Topic:** Exception Classification & Multiple Catch  
+
+**Objective:**  
+Handle different types of errors separately.
+
+**Task:**  
+1. Create a Calculator class with divide(int a, int b).  
+2. Use try block for division.  
+
+**Implementation:**  
+- catch ArithmeticException (division by zero)  
+- catch InputMismatchException (wrong input)  
+- catch Exception (generic fallback)  
+
+**Goal:**  
+Specific exceptions should be handled before general ones.
+
+**Code file:** Calculator.java  
+
+[👉 Click here to view code](Calculator.java)
+
+## 17. Divider App (Try-Catch-Finally)
+
+**Topic:** Exception Handling & finally  
+
+**Objective:**  
+Allow program to recover from errors.
+
+**Task:**  
+1. Take two integers as input.  
+2. Perform division (a / b).  
+
+**Logic:**  
+- Use try block  
+- Catch ArithmeticException  
+- Use finally block to print "Calculation Attempt Finished"  
+
+**Experiment:**  
+Enter 0 as divisor.
+
+**Observation:**  
+Program does not crash and finally always executes.
+
+**Code file:** Divider.java  
+
+[👉 Click here to view code](DividerApp.java)
+
+## 18. Array & Input Validator
+
+**Topic:** Checked vs Unchecked Exceptions  
+
+**Objective:**  
+Understand difference between checked and unchecked exceptions.
+
+**Task:**  
+1. Create array of size 3  
+2. Take index input from user  
+
+**Unchecked Example:**  
+Handle ArrayIndexOutOfBoundsException  
+
+**Checked Example:**  
+Use Class.forName("NonExistentClass")  
+
+**Logic:**  
+Show difference in compiler handling.
+
+**Goal:**  
+Understand checked vs unchecked exception behavior.
+
+**Code file:** Validator.java  
+
+[👉 Click here to view code](Array & Input Validator.java)
