@@ -17,3 +17,4 @@ Solve the classic Producer-Consumer problem using a shared buffer limit.
 Use while loop to check conditions before calling wait(), and use notifyAll() to wake up waiting threads.
 
 **Code file:** Bakery.java
+[👉 Click here to view code](Bakery.java)
