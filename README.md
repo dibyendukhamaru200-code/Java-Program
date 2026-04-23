@@ -38,7 +38,7 @@ Observe how wait() forces a thread to pause until another thread wakes it using 
 **Code file:** WalkieTalkie.java  
 
 
-[👉 Click here to view code](WalkieTalkie.java)
+[👉 Click here to view code](RadioChannel.java)
 
 ## 3. Ticket Booking Portal (Synchronized Blocks)
 
@@ -59,7 +59,7 @@ Understand that synchronizing the whole method makes threads wait unnecessarily 
 
 **Code file:** TicketBooking.java  
 
-[👉 Click here to view code](TicketBooking.java)
+[👉 Click here to view code](TicketCounter.java)
 
 ## 4. Joint Bank Account (Synchronized Method)
 
@@ -82,7 +82,7 @@ Prove that threads can interrupt each other in the middle of a method unless a l
 
 **Code file:** BankAccountTest.java  
 
-[👉 Click here to view code](BankAccountTest.java)
+[👉 Click here to view code](BankAccount.java)
 
 ## 5. The Impatient Supervisor (Interrupt Handling)
 
@@ -145,7 +145,7 @@ Understand thread lifecycle.
 
 **Code file:** TaskRunnerTest.java  
 
-[👉 Click here to view code](TaskRunnerTest.java)
+[👉 Click here to view code](TaskRunner.java)
 
 
 ## 8. Dual Tasker (Basic Thread Creation)
@@ -165,7 +165,7 @@ start() creates new thread.
 
 **Code file:** DualTasker.java  
 
-[👉 Click here to view code](DualTasker.java)
+[👉 Click here to view code](NumberPrinter.java)
 
 ## 9. Age Validator (Custom Exception)
 
@@ -222,7 +222,7 @@ Understand priority impact.
 
 **Code file:** CounterThreadTest.java  
 
-[👉 Click here to view code](CounterThreadTest.java)
+[👉 Click here to view code](CounterThread.java)
 
 
 ## 13. Recursive String Explorer
